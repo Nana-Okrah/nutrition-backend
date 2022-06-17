@@ -17,7 +17,10 @@
           type:line
           data:{
               labels:{{x_axis |safe}}
-              data:{{values}}
+              dataset:[
+              {{values | safe}}
+              
+          ]
           }
       </script>
 
